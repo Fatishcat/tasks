@@ -9,7 +9,8 @@ function App(): React.JSX.Element {
             </header>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload. Xander dufour, Hello World!
+                automatically reload. Xander dufour, Hello World! I need to test
+                more changes
             </p>
         </div>
     );
