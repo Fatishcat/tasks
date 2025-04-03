@@ -57,6 +57,14 @@ function App(): React.JSX.Element {
                     </Row>
                 </Container>
             </div>
+            <hr></hr>
+            <Counter></Counter>
+            <hr />
+            <RevealAnswer></RevealAnswer>
+            <hr />
+            <TwoDice></TwoDice>
+            <hr />
+            <ChangeType></ChangeType>
         </div>
     );
 }
