@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { Counter } from "./components/Counter";
+import { RevealAnswer } from "./components/RevealAnswer";
 
 function App(): React.JSX.Element {
     return (
@@ -56,15 +58,15 @@ function App(): React.JSX.Element {
                         </Col>
                     </Row>
                 </Container>
+                <hr></hr>
+                <Counter></Counter>
+                <hr />
+                <RevealAnswer></RevealAnswer>
+                <hr />
+                {/* <TwoDice></TwoDice> */}
+                <hr />
+                <ChangeType></ChangeType>
             </div>
-            <hr></hr>
-            <Counter></Counter>
-            <hr />
-            <RevealAnswer></RevealAnswer>
-            <hr />
-            <TwoDice></TwoDice>
-            <hr />
-            <ChangeType></ChangeType>
         </div>
     );
 }
