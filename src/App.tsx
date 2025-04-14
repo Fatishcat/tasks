@@ -8,6 +8,7 @@ import { StartAttempt } from "./components/StartAttempt";
 import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
+import { TwoDice } from "./components/TwoDice";
 
 function App(): React.JSX.Element {
     return (
@@ -70,12 +71,12 @@ function App(): React.JSX.Element {
                 <hr />
                 <StartAttempt></StartAttempt>
                 <hr />
-                {/* <TwoDice></TwoDice> */}
+                <TwoDice></TwoDice>
                 <hr />
                 <ChangeType></ChangeType>
             </div>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
