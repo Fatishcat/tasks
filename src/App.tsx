@@ -3,6 +3,8 @@ import "./App.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Counter } from "./components/Counter";
 import { RevealAnswer } from "./components/RevealAnswer";
+import { ChangeType } from "./components/ChangeType";
+import { StartAttempt } from "./components/StartAttempt";
 
 function App(): React.JSX.Element {
     return (
@@ -62,6 +64,8 @@ function App(): React.JSX.Element {
                 <Counter></Counter>
                 <hr />
                 <RevealAnswer></RevealAnswer>
+                <hr />
+                <StartAttempt></StartAttempt>
                 <hr />
                 {/* <TwoDice></TwoDice> */}
                 <hr />

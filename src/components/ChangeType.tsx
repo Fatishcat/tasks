@@ -6,6 +6,10 @@ export function ChangeType(): React.JSX.Element {
     const [questionType, setQuestionType] = useState<QuestionType>(
         "short_answer_question",
     );
+    const name: string =
+        questionType === "short_answer_question" ? "Short Answer" : (
+            "Multiple Choice"
+        );
     function flipQuestionType(): void {
         // Set visible to be the logical opposite of its previous value
         setQuestionType(
@@ -16,10 +20,8 @@ export function ChangeType(): React.JSX.Element {
     }
     return (
         <div>
-            <Button onClick={flipQuestionType}>Change Question Type</Button>
-            <div>
-                <span>questionType</span>
-            </div>
+            <Button onClick={flipQuestionType}>Change Type</Button>
+            <div>{name}</div>
         </div>
     );
 }
