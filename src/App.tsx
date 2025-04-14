@@ -2,15 +2,12 @@ import React from "react";
 import "./App.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Counter } from "./components/Counter";
-<<<<<<< HEAD
 import { RevealAnswer } from "./components/RevealAnswer";
 import { ChangeType } from "./components/ChangeType";
 import { StartAttempt } from "./components/StartAttempt";
-=======
 import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
->>>>>>> upstream/task-components
 
 function App(): React.JSX.Element {
     return (
@@ -18,7 +15,6 @@ function App(): React.JSX.Element {
             <header className="App-header">
                 UM COS420 with React Hooks and TypeScript
             </header>
-<<<<<<< HEAD
             <h1>Header</h1>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
@@ -78,7 +74,6 @@ function App(): React.JSX.Element {
                 <hr />
                 <ChangeType></ChangeType>
             </div>
-=======
             <hr></hr>
             {/* <DoubleHalf></DoubleHalf> */}
             <hr></hr>
@@ -93,7 +88,6 @@ function App(): React.JSX.Element {
             <TwoDice></TwoDice>
             <hr />
             <ChangeType></ChangeType>
->>>>>>> upstream/task-components
         </div>
     );
 }
